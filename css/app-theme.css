@@ -1,0 +1,136 @@
+body{ 
+	background-color: #0a0e15;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Global Rewrite */
+.fa{ vertical-align: middle; }
+
+
+/* App Navbar */
+.app-navbar{ 
+	background-color: transparent; 
+	border-bottom-color: transparent; 
+	border-top: 5px solid #ffd800; 
+	padding: 20px 0; 
+}
+.app-navbar .navbar-brand img{ 
+	width: 60%;
+}
+
+.app-navbar .navbar-nav>li>a{ 
+	color: #ffffff; 
+	padding: 6px 15px; 
+	text-transform: uppercase;
+}
+.app-navbar .navbar-nav>li>a:hover{ 
+	color: #5bc0de;
+}
+
+.app-navbar .navbar-nav>.active>a,
+.app-navbar .navbar-nav>.active>a:focus,
+.app-navbar .navbar-nav>.active>a:hover{
+	background-color: #ffd800;
+	border-radius: 4px;
+}
+/* End App Navbar */
+
+
+/* Section Main */
+section.main{ color: #FFF; min-height: 85vh; background: url(../images/main-bg.png) no-repeat center; background-size: cover; }
+section.main .form-container{ text-align: center; margin-top: 18%; }
+section.main .form-container .headline strong{ display: block; }
+section.main .form-container .form-control{ background-color: transparent; border-radius: 0; }
+section.main .form-container .btn-yellow{ background-color: #ffd800; color: black; border-radius: 0; }
+/* End Section Main */
+
+/* Section Services */
+section.services{ position: relative; background-color: #191b29; color: #FFF; padding: 30px 0; } 
+section.services .icon-headline i{ margin-right: 20px; color: #ffd800; } 
+section.services .headline-dlts{ padding: 20px 0; color: #9d9fbf; } 
+section.services .bg-mobile{ width: 80%; margin: -125px auto 0px auto; }
+@media screen and (max-width: 991px){ 
+	section.services .bg-mobile{ margin-top: 0; } 
+}  
+/* End Section Services */
+
+/* Our team Section */
+.our-team { 
+	background-color: #FFD800; 
+	color: #000; 
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+.our-team .headline h2 { font-size: 20px; margin-top: 5px; margin-bottom: 35px;}
+.our-team .team img { padding-top: 20px;}
+.our-team .team .parg { text-align: center; color: #535353;}
+
+/* End Our team Section */
+
+/* App Section */
+.app { background-color: #FFF; padding-bottom: 15px; }
+.app .first-para { 
+	background-color: #FFE347; 
+	width: 128%; 
+	padding-top: 25px;
+	padding-bottom: 40px; 
+	padding-left: 75px;
+	padding-right: 75px;
+	margin-left: -30px;
+}
+.app  .second-para {
+	padding-top: 35px;
+	padding-bottom: 40px; 
+	padding-left: 75px;
+}
+.app  .second-para p {
+	padding-top: 15px;
+}
+.app .btn-default{
+    background-color: #333;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 0;
+    margin-top: 25px;
+}
+.app .btn-default: hover{
+	background-color: #ffd800;
+}
+.app .desktop  img { height: 450px; width: 660px; }
+
+/* App Work Section */
+.app-work { 
+	color: #FFF; 
+	background: url(../images/main-bg.png) no-repeat center; 
+	background-size: cover;
+	text-align: center;
+	padding-top: 40px;
+}
+.app-work h2 { font-weight: 300 }
+.app-work h4 { display: block }
+.app-work img {
+	padding-top: 35px;
+	padding-bottom: 10px;
+	text-align: center;
+	width: 35%;
+}
+.app-work .btn-dwnld {
+	background-color: #ffd800;
+	color: black;
+	font-size: 20px;
+	margin: 40px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-transform: uppercase;
+}
+
+/* footer section */
+.footer {
+	padding: 75px 30px;
+	text-align: center;
+	color: #FFF;
+}
+.footer .last-parg {
+	padding-top: 35px;
+}
